@@ -1,0 +1,19 @@
+@import "tailwindcss";
+/* Scrollbar صغير وأنيق */
+.custom-scrollbar::-webkit-scrollbar {
+    height: 6px; /* ارتفاع الاسكرول الأفقي */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #9ca3af; /* لون غامق */
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #6b7280; /* عند المرور عليه */
+}
