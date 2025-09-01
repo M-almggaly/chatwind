@@ -398,7 +398,7 @@ profileNextBtn.addEventListener("click", async (e) => {
             }
 
             // ✅ بعد الحفظ ننتقل إلى الصفحة التالية
-            window.location.href = "../public/chat/chat.html";
+            window.location.href = "/chat/chat.html";
         } else {
             document.getElementById("overlay").classList.add("hidden");
             msgDiv.classList.remove("opacity-100");
